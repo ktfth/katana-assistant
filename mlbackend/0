@@ -1,0 +1,249 @@
+/home/kaique/war/katana-assistant/mlbackend
+Server Running At: localhost:8000
+User connected
+User prompt: Hi
+Chat context: undefined
+Bot params: undefined
+Error: connect ECONNREFUSED 127.0.0.1:5001
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 5001,
+  request: ClientRequest {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    href: 'http://127.0.0.1:5001/katana-ml/api/v1.0/assistant',
+    options: {
+      host: '127.0.0.1',
+      port: '5001',
+      path: '/katana-ml/api/v1.0/assistant',
+      href: 'http://127.0.0.1:5001/katana-ml/api/v1.0/assistant',
+      method: 'POST',
+      headers: [Object],
+      data: '{"sentence":"Hi"}'
+    },
+    _httpRequest: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 17,
+      _requestBodyBuffers: [Array],
+      _onNativeResponse: [Function],
+      _currentRequest: [ClientRequest],
+      _currentUrl: 'http://127.0.0.1:5001/katana-ml/api/v1.0/assistant',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false
+  }
+}
+/home/kaique/war/katana-assistant/mlbackend
+Server Running At: localhost:8000
+User connected
+User prompt: Hi how are you?
+Chat context: null
+Bot params: undefined
+Error: connect ECONNREFUSED 127.0.0.1:5001
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 5001,
+  request: ClientRequest {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    href: 'http://127.0.0.1:5001/katana-ml/api/v1.0/assistant',
+    options: {
+      host: '127.0.0.1',
+      port: '5001',
+      path: '/katana-ml/api/v1.0/assistant',
+      href: 'http://127.0.0.1:5001/katana-ml/api/v1.0/assistant',
+      method: 'POST',
+      headers: [Object],
+      data: '{"sentence":"Hi how are you?"}'
+    },
+    _httpRequest: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 30,
+      _requestBodyBuffers: [Array],
+      _onNativeResponse: [Function],
+      _currentRequest: [ClientRequest],
+      _currentUrl: 'http://127.0.0.1:5001/katana-ml/api/v1.0/assistant',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false
+  }
+}
+/home/kaique/war/katana-assistant/mlbackend
+Server Running At: localhost:8000
+User connected
+User prompt: What you can do?
+Chat context: null
+Bot params: undefined
+Error: connect ECONNREFUSED 127.0.0.1:5001
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 5001,
+  request: ClientRequest {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    href: 'http://127.0.0.1:5001/katana-ml/api/v1.0/assistant',
+    options: {
+      host: '127.0.0.1',
+      port: '5001',
+      path: '/katana-ml/api/v1.0/assistant',
+      href: 'http://127.0.0.1:5001/katana-ml/api/v1.0/assistant',
+      method: 'POST',
+      headers: [Object],
+      data: '{"sentence":"What you can do?"}'
+    },
+    _httpRequest: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 31,
+      _requestBodyBuffers: [Array],
+      _onNativeResponse: [Function],
+      _currentRequest: [ClientRequest],
+      _currentUrl: 'http://127.0.0.1:5001/katana-ml/api/v1.0/assistant',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false
+  }
+}
+/home/kaique/war/katana-assistant/mlbackend
+Server Running At: localhost:8000
+User connected
+User prompt: Hi
+Chat context: null
+Bot params: undefined
+Error: connect ECONNREFUSED 127.0.0.1:5001
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 5001,
+  request: ClientRequest {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    href: 'http://127.0.0.1:5001/katana-ml/api/v1.0/assistant',
+    options: {
+      host: '127.0.0.1',
+      port: '5001',
+      path: '/katana-ml/api/v1.0/assistant',
+      href: 'http://127.0.0.1:5001/katana-ml/api/v1.0/assistant',
+      method: 'POST',
+      headers: [Object],
+      data: '{"sentence":"Hi"}'
+    },
+    _httpRequest: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 17,
+      _requestBodyBuffers: [Array],
+      _onNativeResponse: [Function],
+      _currentRequest: [ClientRequest],
+      _currentUrl: 'http://127.0.0.1:5001/katana-ml/api/v1.0/assistant',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false
+  }
+}
+/home/kaique/war/katana-assistant/mlbackend
+Server Running At: localhost:8000
+User connected
+User prompt: Hi
+Chat context: null
+Bot params: undefined
+Error: connect ECONNREFUSED 127.0.0.1:5001
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 5001,
+  request: ClientRequest {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    href: 'http://127.0.0.1:5001/katana-ml/api/v1.0/assistant',
+    options: {
+      host: '127.0.0.1',
+      port: '5001',
+      path: '/katana-ml/api/v1.0/assistant',
+      href: 'http://127.0.0.1:5001/katana-ml/api/v1.0/assistant',
+      method: 'POST',
+      headers: [Object],
+      data: '{"sentence":"Hi"}'
+    },
+    _httpRequest: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 17,
+      _requestBodyBuffers: [Array],
+      _onNativeResponse: [Function],
+      _currentRequest: [ClientRequest],
+      _currentUrl: 'http://127.0.0.1:5001/katana-ml/api/v1.0/assistant',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false
+  }
+}
+/home/kaique/war/katana-assistant/mlbackend
+Server Running At: localhost:8000
+User connected
+User prompt: Hi
+Chat context: null
+Bot params: undefined
+Intent: greeting
+Probability: 0.9902795
+

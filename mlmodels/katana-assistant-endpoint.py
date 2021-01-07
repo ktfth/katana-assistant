@@ -17,6 +17,8 @@ import pandas as pd
 import numpy as np
 import tensorflow as tf
 
+from keras.models import load_model
+
 
 # In[12]:
 
@@ -41,10 +43,10 @@ def bow(sentence, words, show_details=True):
     # tokenize the pattern
     sentence_words = clean_up_sentence(sentence)
     # bag of words
-    bag = [0]*len(words)  
+    bag = [0]*len(words)
     for s in sentence_words:
         for i,w in enumerate(words):
-            if w == s: 
+            if w == s:
                 bag[i] = 1
                 if show_details:
                     print ("found in bag: %s" % w)
@@ -65,18 +67,20 @@ print (classes)
 
 # Use pickle to load in the pre-trained model
 global graph
-graph = tf.get_default_graph()
+graph = tf.compat.v1.get_default_graph()
 
-with open(f'katana-assistant-model.pkl', 'rb') as f:
-    model = pickle.load(f)
+# with open(f'katana-assistant-model.pkl', 'rb') as f:
+#     unpickler = pickle.Unpickler(f)
+#     model = unpickler.load()
 
+model = load_model('katana-assistant-model.h5')
 
 # In[16]:
 
 
 def classify_local(sentence):
     ERROR_THRESHOLD = 0.25
-    
+
     # generate probabilities from the model
     input_data = pd.DataFrame([bow(sentence, words)], dtype=float, index=['input'])
     results = model.predict([input_data])[0]
@@ -88,7 +92,7 @@ def classify_local(sentence):
     for r in results:
         return_list.append((classes[r[0]], str(r[1])))
     # return tuple of intent and probability
-    
+
     return return_list
 
 
@@ -143,9 +147,9 @@ CORS(app)
 @app.route("/katana-ml/api/v1.0/assistant", methods=['POST'])
 def classify():
     ERROR_THRESHOLD = 0.25
-    
+
     sentence = request.json['sentence']
-    
+
     # generate probabilities from the model
     input_data = pd.DataFrame([bow(sentence, words)], dtype=float, index=['input'])
     results = model.predict([input_data])[0]
@@ -157,11 +161,10 @@ def classify():
     for r in results:
         return_list.append({"intent": classes[r[0]], "probability": str(r[1])})
     # return tuple of intent and probability
-    
+
     response = jsonify(return_list)
     return response
 
 # running REST interface, port=5000 for direct test, port=5001 for deployment from PM2
 if __name__ == "__main__":
     app.run(debug=False, host='0.0.0.0', port=5001)
-
