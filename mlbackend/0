@@ -247,3 +247,185 @@ Bot params: undefined
 Intent: greeting
 Probability: 0.9902795
 
+User prompt: What you can do?
+Chat context: 
+Bot params: undefined
+Intent: options
+Probability: 0.99999595
+
+User prompt: get me patieent blood results
+Chat context: 
+Bot params: undefined
+Intent: blood_pressure_search
+Probability: 0.99981135
+
+User prompt: 12345
+Chat context: search_blood_pressure_by_patient_id
+Bot params: undefined
+Intent: search_blood_pressure_by_patient_id
+
+User prompt: loockup for hospital based on criterial
+Chat context: 
+Bot params: 12345
+Intent: hospital_search
+Probability: 0.9999459
+
+User prompt: Santa clara
+Chat context: search_hospital_by_params
+Bot params: undefined
+Intent: search_hospital_by_params
+
+User prompt: care unit
+Chat context: search_hospital_by_type
+Bot params: Santa clara
+Intent: search_hospital_by_type
+
+User disconnected
+User connected
+User prompt: Hi
+Chat context: undefined
+Bot params: undefined
+Intent: greeting
+Probability: 0.9902795
+
+User prompt: What time o'clock?
+Chat context: 
+Bot params: undefined
+Intent: options
+Probability: 0.77654743
+
+User prompt: hi
+Chat context: 
+Bot params: undefined
+Intent: greeting
+Probability: 0.9902795
+
+User disconnected
+User connected
+User prompt: Oi
+Chat context: undefined
+Bot params: undefined
+Intent: greeting
+Probability: 0.9992957
+
+User disconnected
+User connected
+User prompt: Oi
+Chat context: undefined
+Bot params: undefined
+Intent: greeting
+Probability: 0.9992957
+
+User prompt: Olá, como vai você?
+Chat context: 
+Bot params: undefined
+Intent: greeting
+Probability: 0.99999785
+
+/home/kaique/war/katana-assistant/mlbackend
+Server Running At: localhost:8000
+User connected
+User disconnected
+User connected
+User prompt: Oi
+Chat context: undefined
+Bot params: undefined
+Intent: greeting
+Probability: 0.9992957
+
+User prompt: Como vai você
+Chat context: 
+Bot params: undefined
+Intent: greeting
+Probability: 0.99995923
+
+User disconnected
+User connected
+User prompt: Oi
+Chat context: undefined
+Bot params: undefined
+Intent: greeting
+Probability: 0.9992957
+
+/home/kaique/war/katana-assistant/mlbackend
+Server Running At: localhost:8000
+User connected
+User disconnected
+User connected
+User prompt: Oi
+Chat context: undefined
+Bot params: undefined
+Intent: greeting
+Probability: 0.9992957
+
+User prompt: Oi
+Chat context: 
+Bot params: undefined
+Intent: greeting
+Probability: 0.9992957
+
+User prompt: Olá
+Chat context: 
+Bot params: undefined
+Intent: greeting
+Probability: 0.99912125
+
+/home/kaique/war/katana-assistant/mlbackend
+Server Running At: localhost:8000
+User connected
+User disconnected
+User connected
+User prompt: Oi
+Chat context: undefined
+Bot params: undefined
+Intent: greeting
+Probability: 0.9992957
+
+User prompt: Tchau
+Chat context: 
+Bot params: undefined
+Intent: greeting
+Probability: 0.8161567
+
+User disconnected
+User connected
+/home/kaique/war/katana-assistant/mlbackend
+Server Running At: localhost:8000
+User connected
+User disconnected
+User connected
+User prompt: Oi
+Chat context: undefined
+Bot params: undefined
+Intent: greeting
+Probability: 0.9992957
+
+User prompt: Tchau
+Chat context: 
+Bot params: undefined
+Intent: greeting
+Probability: 0.8161567
+
+User prompt: Tchau
+Chat context: 
+Bot params: undefined
+Intent: greeting
+Probability: 0.8161567
+
+/home/kaique/war/katana-assistant/mlbackend
+Server Running At: localhost:8000
+User connected
+User disconnected
+User connected
+User prompt: Oi
+Chat context: undefined
+Bot params: undefined
+Intent: greeting
+Probability: 0.9995364
+
+User prompt: Tchau
+Chat context: 
+Bot params: undefined
+Intent: goodbye
+Probability: 0.99968183
+

@@ -1,12 +1,12 @@
 {"intents": [
         {"tag": "greeting",
-         "patterns": ["Hi there", "How are you", "Is anyone there?", "Hello", "Good day"],
-         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "patterns": ["Oi", "Como vai você", "Tem alguém ai?", "Olá", "Bom dia"],
+         "responses": ["Olá, obrigado por perguntar", "Bom te ver novamente", "Oi, como posso ajudar?"],
          "context": [""]
         },
         {"tag": "goodbye",
-         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
-         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "patterns": ["Tchau", "Vejo você depois", "Adeus", "Bom conversar com você, tchau", "Te vejo mais tarde"],
+         "responses": ["Até logo!", "Tenha um ótimo dia", "Tchau! Volte sempre."],
          "context": [""]
         },
         {"tag": "thanks",
