@@ -429,3 +429,14 @@ Bot params: undefined
 Intent: goodbye
 Probability: 0.99968183
 
+/home/kaique/war/katana-assistant/mlbackend
+Server Running At: localhost:8000
+User connected
+User disconnected
+User connected
+User prompt: Obrigado
+Chat context: undefined
+Bot params: undefined
+Intent: thanks
+Probability: 0.9998404
+
