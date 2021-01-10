@@ -440,3 +440,26 @@ Bot params: undefined
 Intent: thanks
 Probability: 0.9998404
 
+User prompt: Obrigado
+Chat context: 
+Bot params: undefined
+Intent: thanks
+Probability: 0.9998404
+
+/home/kaique/war/katana-assistant/mlbackend
+Server Running At: localhost:8000
+User connected
+User disconnected
+User connected
+User prompt: Você pode me ajudar?
+Chat context: undefined
+Bot params: undefined
+Intent: options
+Probability: 0.9999938
+
+User prompt: Abrir reações adversas a medicamentos
+Chat context: 
+Bot params: undefined
+Intent: adverse_drug
+Probability: 0.9999981
+

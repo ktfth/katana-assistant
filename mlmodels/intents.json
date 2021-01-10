@@ -16,17 +16,17 @@
         },
         {"tag": "noanswer",
          "patterns": [],
-         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "responses": ["Desculpe, não consegui entender você", "Por favor, me de mais informações", "Não tenho certeza se entendi"],
          "context": [""]
         },
         {"tag": "options",
-         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
-         "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
+         "patterns": ["Você pode me ajudar?", "O que você pode fazer?", "Quais tipos de ajuda você pode prover?", "Como você pode ser útil?", "Qual suporte você oferece"],
+         "responses": ["Eu posso guiar você através de Lista de reações adversas a medicamentos, rastreamento de pressão arterial, hospitais e farmácias "," Oferecendo suporte para reações adversas a medicamentos, pressão arterial, hospitais e farmácias"],
          "context": [""]
         },
         {"tag": "adverse_drug",
-         "patterns": ["How to check Adverse drug reaction?", "Open adverse drugs module", "Give me a list of drugs causing adverse behavior", "List all drugs suitable for patient with adverse reaction", "Which drugs dont have adverse reaction?" ],
-         "responses": ["Navigating to Adverse drug reaction module"],
+         "patterns": ["Como verificar reações adversas a medicamentos?", "Abrir módulo de medicamentos adversos", "Dê-me uma lista de medicamentos que causam comportamento adverso", "Liste todos os medicamentos adequados para pacientes com reação adversa", "Quais medicamentos não apresentam reação adversa?" ],
+         "responses": ["Navegando para o módulo de reação adversa a medicamentos"],
          "context": [""]
         },
         {"tag": "blood_pressure",
