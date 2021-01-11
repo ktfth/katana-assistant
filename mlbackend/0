@@ -463,3 +463,86 @@ Bot params: undefined
 Intent: adverse_drug
 Probability: 0.9999981
 
+User disconnected
+User connected
+User prompt: Oi
+Chat context: undefined
+Bot params: undefined
+Intent: greeting
+Probability: 0.9990103
+
+User prompt: Como você pode me ajudar?
+Chat context: 
+Bot params: undefined
+Intent: options
+Probability: 0.9999927
+
+User prompt: Abrir reações adversas
+Chat context: 
+Bot params: undefined
+Intent: adverse_drug
+Probability: 0.9050382
+
+User prompt: Obrigado
+Chat context: 
+Bot params: undefined
+Intent: thanks
+Probability: 0.99996805
+
+User prompt: Tchau
+Chat context: 
+Bot params: undefined
+Intent: goodbye
+Probability: 0.9996511
+
+User disconnected
+User connected
+/home/kaique/war/katana-assistant/mlbackend
+Server Running At: localhost:8000
+User connected
+User prompt: Oi
+Chat context: undefined
+Bot params: undefined
+Intent: greeting
+Probability: 0.998579
+
+User prompt: Você pode me ajudar?
+Chat context: 
+Bot params: undefined
+Intent: options
+Probability: 0.99999833
+
+User prompt: Abrir rastreamento de pressão arterial
+Chat context: 
+Bot params: undefined
+Intent: blood_pressure
+Probability: 0.99999774
+
+User disconnected
+User connected
+User disconnected
+User connected
+User disconnected
+User connected
+User prompt: No que você pode me ajudar?
+Chat context: undefined
+Bot params: undefined
+Intent: options
+Probability: 0.9999999
+
+User prompt: Abrir hospitais
+Chat context: 
+Bot params: undefined
+Intent: hospital_search
+Probability: 0.50023043
+
+User prompt: São Paulo
+Chat context: search_hospital_by_params
+Bot params: undefined
+Intent: search_hospital_by_params
+
+User prompt: Hospital geral
+Chat context: search_hospital_by_type
+Bot params: São Paulo
+Intent: search_hospital_by_type
+

@@ -30,43 +30,43 @@
          "context": [""]
         },
         {"tag": "blood_pressure",
-         "patterns": ["Open blood pressure module", "Task related to blood pressure", "Blood pressure data entry", "I want to log blood pressure results", "Blood pressure data management" ],
-         "responses": ["Navigating to Blood Pressure module"],
+         "patterns": ["Abrir módulo de pressão arterial", "Tarefa relacionada à pressão arterial", "Entrada de dados de pressão arterial", "Desejo registrar os resultados de pressão arterial", "Gerenciamento de dados de pressão arterial" ],
+         "responses": ["Navegando para o módulo de pressão arterial"],
          "context": [""]
         },
         {"tag": "blood_pressure_search",
-         "patterns": ["I want to search for blood pressure result history", "Blood pressure for patient", "Load patient blood pressure result", "Show blood pressure results for patient", "Find blood pressure results by ID" ],
-         "responses": ["Please provide Patient ID", "Patient ID?"],
+         "patterns": ["Desejo pesquisar o histórico de resultados da pressão arterial", "Pressão arterial do paciente", "Carregar resultado da pressão arterial do paciente", "Mostrar resultados da pressão arterial do paciente", "Encontrar resultados da pressão arterial por ID" ],
+         "responses": ["Forneça a ID do paciente", "ID do paciente?"],
          "context": ["search_blood_pressure_by_patient_id"]
         },
         {"tag": "search_blood_pressure_by_patient_id",
          "patterns": [],
-         "responses": ["Loading Blood pressure result for Patient"],
+         "responses": ["Carregando resultado da pressão arterial para o paciente"],
          "context": [""]
         },
         {"tag": "pharmacy_search",
-         "patterns": ["Find me a pharmacy", "Find pharmacy", "List of pharmacies nearby", "Locate pharmacy", "Search pharmacy" ],
-         "responses": ["Please provide pharmacy name"],
+         "patterns": ["Encontre uma farmácia", "Encontre farmácia", "Lista de farmácias próximas", "Localize farmácia", "Procure farmácia" ],
+         "responses": ["Forneça o nome da farmácia"],
          "context": ["search_pharmacy_by_name"]
         },
         {"tag": "search_pharmacy_by_name",
          "patterns": [],
-         "responses": ["Loading pharmacy details"],
+         "responses": ["Carregando detalhes da farmácia"],
          "context": [""]
         },
         {"tag": "hospital_search",
-         "patterns": ["Lookup for hospital", "Searching for hospital to transfer patient", "I want to search hospital data", "Hospital lookup for patient", "Looking up hospital details" ],
-         "responses": ["Please provide hospital name or location"],
+         "patterns": ["Pesquisa de hospital", "Pesquisando hospital para transferir paciente", "Desejo pesquisar dados de hospitais", "Pesquisa de hospital para paciente", "Pesquisando detalhes de hospitais" ],
+         "responses": ["Forneça o nome ou localização do hospital"],
          "context": ["search_hospital_by_params"]
         },
         {"tag": "search_hospital_by_params",
          "patterns": [],
-         "responses": ["Please provide hospital type"],
+         "responses": ["Forneça o tipo de hospital"],
          "context": ["search_hospital_by_type"]
         },
         {"tag": "search_hospital_by_type",
          "patterns": [],
-         "responses": ["Loading hospital details"],
+         "responses": ["Carregando detalhes do hospital"],
          "context": [""]
         }
    ]
